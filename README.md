@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  <href url = https://animalcrossing.nintendo.com/new-horizons//>
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  homepagina   
+  <img src="readme-images/IMG_6719.PNG" width="375px" alt="omschrijving van de homepaginapagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Happy home paradise  
+  <img src="readme-images/IMG_6720.PNG" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -57,6 +57,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  Bril met vlek:
+  ziet niks in het middel, rechts en links wel. Je beweegt je hoofd veel om de rest van het scherm te kunnen zien. 
+  In het moet alles groot zijn anders zie je het gewoon niet. Als je dichterbij het schem gaat zitten is het wel beter te zien 
+  omdat de vlek minder ruimte van het scherm inneemt. 
+
+  Bril met gaatje:
+  Scherm is wel nog te zien, focus ligt echt in het midden
+  je ziet niet alles tegelijk dus je kijkt door veel je hoofd te bewegen
+  je moet heel aandachtig zoeken om te vinden wat je wilt
+  Om alles scherp te zien moet je eigenlijk dichterbij zitten
+
+  Screenreader:
+
+  website maakt heel goed gebruikt van headings en links, alles wordt goed benoemt. 
+  Met de links wordt eerst de inhoud van de link genoemd en daarna 'link'. Bij de heading begint hij met h2 en dan de inhoud van de heading 
 
 </details>
 
@@ -94,10 +109,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | David          | Po Trng            | Madelief     | Eline            |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | javascrips     | lastig van oefening| javascript   | en dan ik dat    |
+  | lastig         | naar eigen werk    | moeilijk     | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
