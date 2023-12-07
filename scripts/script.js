@@ -8,7 +8,7 @@ menubutton.onclick = openMenu;
 function openMenu() { 
 var menu = document.querySelector("nav");
 menu.classList.add("toonMenu");
-  console.log("hsdsgdsadgsd");
+  
 }
 
 var sluitbutton = document.querySelector("nav button");
