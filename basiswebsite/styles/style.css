@@ -1,0 +1,270 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Montserrat:wght@100&family=Zilla+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+button:not(disabled) {
+  cursor: pointer;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+  /* startje */
+  --color-text: #111;
+  --color-background: #eee;
+}
+
+
+
+@keyframes floating-leaves {
+  0% {
+    background-position:right bottom;
+  }
+  
+  100% {
+    background-position:left top;
+  }
+
+}
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Header */
+header {
+  background-color: #e60012;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  /* codepen: https://codepen.io/MadeliefZandt/pen/jOdxWjd?editors=0100 */
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  right: 0;
+  align-items: center;
+
+}
+
+header a {
+  padding: .5em 0;
+  color: var(--general-color);
+  text-decoration: none;
+}
+
+header img {
+  width: 40%;
+}
+
+header button {
+  padding: .5em;
+
+  /* icon en tekst met gap-je naast elkaar */
+  display: flex;
+  align-items: center;
+  gap: .25em;
+
+  /* standaard styling aanpassen */
+  appearance: none;
+  background-color: var(--button-background);
+  border: none;
+  border-radius: .25em;
+  font: inherit;
+  text-align: center;
+  color: var(--button-color);
+}
+
+header>button {
+  /* JOUW CODE HIER - stap 3 */
+  order: -1;
+
+}
+
+nav button {
+  justify-self: start;
+  color: #6b5c43;
+  padding: 10px;
+  padding: 1em;
+}
+
+
+
+nav {
+  background-color: #e60012;
+  color: #fff;
+
+  text-align: center;
+
+
+
+  display: grid;
+  align-content: start;
+  gap: 1em;
+
+
+
+  /* JOUW CODE HIER - stap 1 */
+  position: fixed;
+
+  /* JOUW CODE HIER - stap 2 */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  translate: -100% 000%;
+  transition: .3s;
+  z-index: 99;
+}
+
+nav.toonMenu {
+  /* JOUW CODE HIER - stap 4 */
+  translate: 0% 0%;
+  transition: .3s;
+  background-color: #f1e26f;
+
+
+}
+
+nav ul {
+  list-style: none;
+  background-color: #f1e26f;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+nav ul li {
+
+  color: white;
+  font-size: 1.5em;
+  padding: 0.5em;
+  padding-left: 0;
+  border-bottom: 1px solid rgba(200, 172, 61, 0.33);
+
+}
+
+nav ul li a {
+  border-radius: 2em;
+  background-color: white;
+}
+
+nav ul li a:hover {
+  text-decoration-style: wavy;
+
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px;
+  color: #6b5c43;
+}
+
+main {
+  background-image: url("../images/pattern-leaves-white.jpeg");
+  animation-delay: 250ms;
+  animation-duration: 80s;
+
+  animation-name:floating-leaves;
+  
+  animation-timing-function:linear;
+  animation-iteration-count: infinite;
+  
+  text-align: center;
+  
+ 
+  
+
+}
+/* bron animatie main: https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration */
+
+h1, h2, h3, h4{
+  font-family: "Zilla Slab",sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+}
+
+h1 img:nth-of-type(1) {
+  width: 50%;
+  position: absolute;
+  top: 2em;
+}
+
+h1 img:nth-of-type(2) {
+  width: 185%;
+}
+
+h1 img:nth-of-type(3) {
+  width: 50%;
+}
+
+p{
+font-family:"Libre Franklin",sans-serif;
+line-height: 1.5;
+}
+
+section:nth-of-type(1){
+  color:#f8f8f0;
+  padding: 2em;
+  background-color: #6b5c43;
+opacity: 1;
+background-image:  radial-gradient(#302108 1.45px, transparent 1.45px), radial-gradient(#302108 1.45px, #6b5c43 1.45px);
+background-size: 18px 18px;
+background-position: 0 0,9px 9px;
+}
+
+/* bron stippen:https://www.magicpattern.design/tools/css-backgrounds */
+
+section:nth-of-type(1) p:nth-of-type(1){
+  padding: 1em 2em;
+}
+section:nth-of-type(1) p:nth-of-type(2) {
+  background-color: #f1e26f;
+  color:#6b5c43;
+  
+  padding: 1em 0em;
+  border-radius: 0.5em;
+}
+
+/* ribbon bron: https://codepen.io/lonekorean/pen/MWbENmV */
+
+h3 {
+    position: relative;
+    margin: 0em 2.5em;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #f0fff5;
+    border-radius: 0.5em;
+    background-image: url("images/ribbon-end-green.svg");
+   
+  }
+  
+  
