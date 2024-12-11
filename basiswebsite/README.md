@@ -97,7 +97,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Voortgang 1 (week 2)
+## Voortgang 1 (week 2) 2023-2024
 
 <details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
@@ -130,13 +130,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Voortgang 2 (week 3)
+## Voortgang 1  2024-2025 28-11-2024
 
 <details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
+  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Feedback gesprek was goed. Veranderen van H1 positie naar een logische plek en niet meer in een afbeelding. 
+  Het veranderen van section zodat ook in een goede structuur staat door het toevoegen article's
+  Intro veranderen naar label, beschrijving/alt zodat het wel gelezen en gezien kan worden\
+  Zorgen dat er geen classes in de eerste styles sheet etc staat.
 
 
   ### Agenda voor meeting
