@@ -83,13 +83,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/FED BREAKDOWN.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -180,13 +180,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Voortgang 3 (week 4)
+## Voortgang 2 12-12-2024 
 
 <details>
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  WCAG checklist nieuwe website. Background image ipv in html. grid ipv flex, breakdown schets voor html 2e pagina. service plaining ipv responsive, 2e pagina html, css custom properties ipv los
 
 
   ### Agenda voor meeting
@@ -209,6 +209,35 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 </details>
 
+
+## Voortgang 2 09-02-2025 
+
+<details>
+  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
+
+  ### Stand van zaken
+  
+
+
+  ### Agenda voor meeting
+  samen met je groepje opstellen
+
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
+
+
+  ### Verslag van meeting
+  hier na afloop snel de uitkomsten van de meeting vastleggen
+
+  - punt 1
+  - punt 2
+  - nog een punt
+  - ...
+
+</details>
 
 
 

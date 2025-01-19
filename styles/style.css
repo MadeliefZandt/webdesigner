@@ -15,6 +15,7 @@ button:not(disabled) {
   cursor: pointer;
 }
 
+
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -161,33 +162,24 @@ nav a {
   color: #6b5c43;
 }
 
+/*main*/
+
 main {
-  background-color: #fbbb37;
-  background-image: url("../images/pattern-triangles-yellow.png");
-  background-size: 25%;
-  animation-delay: 250ms;
-  animation-duration: 80s;
-
-  animation-name: floating-leaves;
-
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-
   text-align: center;
   overflow: hidden;
 
+
 }
+
 
 /* bron animatie main: https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration */
 
-h1,
-h2,
-h3,
-h4 {
+body {
   font-family: "Zilla Slab", sans-serif;
 }
 
 /* Sections */
+
 
 section:nth-of-type(1) {
   display: flex;
@@ -203,10 +195,12 @@ h1 {
   width: 60%;
 }
 
-p {
+main p {
   font-family: "Libre Franklin", sans-serif;
   line-height: 1.5;
 }
+
+/* section 1 - main screen */
 
 section h1 p {
   font-size: 1em;
@@ -286,28 +280,226 @@ h2 {
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-h3 {
+section:nth-of-type(1) h3 {
   font-size: 1.375em;
   color: #fff;
   font-weight: bold;
   text-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
 }
 
-section:nth-of-type(2)img:nth-of-type(1) {
+/* section 2 - birthday card */
+
+
+section:nth-of-type(2) {
+  display: grid;
   position: relative;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  width: 100%;
+  justify-items: center;
+  background-image: url(../images/birthday-red_2x.jpg);
+  background-repeat: repeat;
+}
+
+section:nth-of-type(2) h2 {
+  z-index: 1;
+  margin: 0;
+}
+
+section:nth-of-type(2) h3 {
+  z-index: 1;
+  margin: 0 0 1em 0;
+  color: white;
+  font-size: 24px;
+}
+
+section:nth-of-type(2) img:nth-of-type(1) {
+  position: absolute;
+  width: 90%;
+  height: 110%;
+  margin-top: -5%;
+}
+
+section:nth-of-type(2) img:nth-of-type(2) {
+  width: 80%;
+  z-index: 1;
+  margin: 2em 0em;
+}
+
+/*section 3 - animal crossing news */
+
+
+
+section:nth-of-type(3) {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 2em;
+
+  background-color: #fbbb37;
+  background-image: url("../images/pattern-triangles-yellow.png");
+  background-size: 50%;
+  animation-delay: 250ms;
+  animation-duration: 80s;
+
+  animation-name: floating-leaves;
+
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+section:nth-of-type(3) h3 {
+  font-size: 24px;
+  padding-top: 1em;
+  color: #834b16;
+}
+
+section:nth-of-type(3) article h4 {
+  color: #36afb6
 }
 
 section:nth-of-type(3) article {
   background-color: white;
   border-radius: 12px;
+  padding-top: .6em;
+  padding-bottom: .6em;
+  margin: 1em 0;
+}
+
+section:nth-of-type(3) img {
+  border-radius: 1em;
 }
 
 section:nth-of-type(3) button {
-background-color: #c4161c;
-color: #ffe46a;
-padding: 5%;
-border-radius: 10%;
+  background-color: #c4161c;
+  color: #ffe46a;
+  padding: 5%;
+  border-radius: 10%;
+}
+
+section:nth-of-type(3) a {
+  color: #c4161c;
+  text-decoration: none;
+}
+
+/*section 4 - new horizon video */
+
+
+section:nth-of-type(4) article {
+  background-color: #fbbb37;
+}
+
+section:nth-of-type(4) h4 {
+  margin: 0;
+  padding: 1.5em;
+}
+
+section:nth-of-type(4) img {
+  background-color: #6ddcff;
+  width: 250%;
+  padding-bottom: 2.5em;
+}
+
+section:nth-of-type(4) p {
+  width: 80%;
+}
+
+/* section 5 - pocket camp */
+
+section:nth-of-type(5) {
+  background-image: url(../images/pattern-stripes.jpg);
+
+  padding-bottom: 4em;
+  padding-top: 1em;
+}
+
+section:nth-of-type(5) article {
+  background-image: url(../images/pattern-trees.jpg);
+  border-radius: 1em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin: 1em;
+}
+
+section:nth-of-type(5) img {
+  width: 80%;
+}
+
+/* https://www.w3schools.com/css/css_grid_container.asp */
+
+section:nth-of-type(5)img:nth-of-type(2) {
+  margin-top: 1em;
+}
+
+section:nth-of-type(5) button {
+  background-color: #c4161c;
+  color: #ffe46a;
+  padding: 5%;
+  border-radius: 10%;
+}
+
+/* section 6 - isabelle and friends */
+
+section:nth-of-type(6) {
+  background-color: #fdfdea;
+  background-image: url(/images/play-dots.png);
+  padding-bottom: 1em;
+}
+
+section:nth-of-type(6) img:first-child {
+  width: 350%;
+  margin-left: -125%;
+  margin-top: -8em;
+}
+
+section:nth-of-type(6) h3 {
+  color: #834b16;
+  font-size: 32px;
+}
+
+section:nth-of-type(6) article img {
+  grid-row: 1 / 3;
+  width: 100%;
+}
+
+
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns*/
+
+section:nth-of-type(6) article {
+  display: grid;
+  grid-auto-columns: 1fr 1fr;
+  grid-auto-flow: column;
+  border: 0.3em black solid;
+  margin: 0.5em;
+  background-color: rgb(29, 219, 129)
+}
+
+section:nth-of-type(6) h4 {
+  grid-column: 1;
+  margin-bottom: -1em;
+  margin-top: 1em;
+}
+
+section:nth-of-type(6) p {
+  grid-column: 1;
+  margin: 0;
+  font-size: 13px;
+}
+
+
+/*footer*/
+
+footer {
+  background-color: #f7aa18;
+  overflow: hidden;
+}
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/overflow*/
+
+footer img:nth-of-type(1) {}
+
+footer img:nth-of-type(2) {
+  width: 120%;
+}
+
+footer p {
+  font-size: 1em;
 }
